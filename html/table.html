@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Table pada HTML</title>
+    </head>
+
+    <body>
+        <h2>table sederhana</h2>
+        <!-- menggunakan tag "table" -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+
+        <!-- Tag "tr" merupakan table row yaitu kolom -->
+        <!-- Tag "td" merupakan table data yaitu baris -->
+
+        <!-- Atribut "border" untuk menambahkan border atau garis table -->
+        <!-- Atribut "cellspacing" untuk menambahkan jarak antar sel -->
+        <!-- Atribut "cellpadding" untuk menambahkan jarak di dalam sel -->
+
+        <!-- UNTUK KE 3 ATRIBUT DIATAS, SEBAIKNYA DIGUNAKAN DIDALAM CSS -->
+
+        <h2>table merging (penggabungan)</h2>
+        <!-- menggunakan atribut "colspan" dan "rowspan" -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">rowspan 3</td>
+                <td colspan="2">colspan 2</td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>2.3</td>
+            </tr>
+            <tr>
+                <td>3.2</td>
+                <td>3.3</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+
+        <!-- Atribut "rowspan" untuk merging kolom -->
+        <!-- Atribut "colspan" untuk merging baris -->
+
+        <h2>Latihan table merging (penggabungan)</h2>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1.1</td>
+                <td>1.2</td>
+                <td>1.3</td>
+                <td>1.4</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td rowspan="2" colspan="2" align="center">?</td>
+                <td>2.4</td>
+            </tr>
+            <tr>
+                <td>3.1</td>
+                <td>3.4</td>
+            </tr>
+            <tr>
+                <td>4.1</td>
+                <td>4.2</td>
+                <td>4.3</td>
+                <td>4.4</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+    </body>
+</html>
